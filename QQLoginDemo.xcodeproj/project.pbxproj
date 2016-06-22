@@ -15,6 +15,16 @@
 		9DEBEDC61D13CFF7004254AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DEBEDC41D13CFF7004254AC /* LaunchScreen.storyboard */; };
 		9DEBEDD11D13CFF7004254AC /* QQLoginDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEBEDD01D13CFF7004254AC /* QQLoginDemoTests.m */; };
 		9DEBEDDC1D13CFF7004254AC /* QQLoginDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEBEDDB1D13CFF7004254AC /* QQLoginDemoUITests.m */; };
+		9DEBEDED1D13D19B004254AC /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9DEBEDEB1D13D19B004254AC /* TencentOpenApi_IOS_Bundle.bundle */; };
+		9DEBEDEE1D13D19B004254AC /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEBEDEC1D13D19B004254AC /* TencentOpenAPI.framework */; };
+		9DEBEDF01D13EA7E004254AC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEBEDEF1D13EA7E004254AC /* libz.tbd */; };
+		9DEBEDF21D13EA85004254AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEBEDF11D13EA85004254AC /* CoreGraphics.framework */; };
+		9DEBEDF41D13EA8E004254AC /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEBEDF31D13EA8E004254AC /* libstdc++.tbd */; };
+		9DEBEDF61D13EA95004254AC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEBEDF51D13EA95004254AC /* CoreTelephony.framework */; };
+		9DEBEDF81D13EA9E004254AC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEBEDF71D13EA9E004254AC /* libsqlite3.tbd */; };
+		9DEBEDFA1D13EAA4004254AC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEBEDF91D13EAA4004254AC /* SystemConfiguration.framework */; };
+		9DEBEDFC1D13EAAC004254AC /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEBEDFB1D13EAAC004254AC /* libiconv.tbd */; };
+		9DEBEDFE1D13EAB2004254AC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEBEDFD1D13EAB2004254AC /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,16 @@
 		9DEBEDD71D13CFF7004254AC /* QQLoginDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQLoginDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DEBEDDB1D13CFF7004254AC /* QQLoginDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQLoginDemoUITests.m; sourceTree = "<group>"; };
 		9DEBEDDD1D13CFF7004254AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DEBEDEB1D13D19B004254AC /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		9DEBEDEC1D13D19B004254AC /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		9DEBEDEF1D13EA7E004254AC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9DEBEDF11D13EA85004254AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9DEBEDF31D13EA8E004254AC /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		9DEBEDF51D13EA95004254AC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		9DEBEDF71D13EA9E004254AC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		9DEBEDF91D13EAA4004254AC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9DEBEDFB1D13EAAC004254AC /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		9DEBEDFD1D13EAB2004254AC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DEBEDFE1D13EAB2004254AC /* Security.framework in Frameworks */,
+				9DEBEDFC1D13EAAC004254AC /* libiconv.tbd in Frameworks */,
+				9DEBEDFA1D13EAA4004254AC /* SystemConfiguration.framework in Frameworks */,
+				9DEBEDF81D13EA9E004254AC /* libsqlite3.tbd in Frameworks */,
+				9DEBEDF61D13EA95004254AC /* CoreTelephony.framework in Frameworks */,
+				9DEBEDF41D13EA8E004254AC /* libstdc++.tbd in Frameworks */,
+				9DEBEDF21D13EA85004254AC /* CoreGraphics.framework in Frameworks */,
+				9DEBEDF01D13EA7E004254AC /* libz.tbd in Frameworks */,
+				9DEBEDEE1D13D19B004254AC /* TencentOpenAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +110,14 @@
 		9DEBEDAA1D13CFF6004254AC = {
 			isa = PBXGroup;
 			children = (
+				9DEBEDFD1D13EAB2004254AC /* Security.framework */,
+				9DEBEDFB1D13EAAC004254AC /* libiconv.tbd */,
+				9DEBEDF91D13EAA4004254AC /* SystemConfiguration.framework */,
+				9DEBEDF71D13EA9E004254AC /* libsqlite3.tbd */,
+				9DEBEDF51D13EA95004254AC /* CoreTelephony.framework */,
+				9DEBEDF31D13EA8E004254AC /* libstdc++.tbd */,
+				9DEBEDF11D13EA85004254AC /* CoreGraphics.framework */,
+				9DEBEDEF1D13EA7E004254AC /* libz.tbd */,
 				9DEBEDB51D13CFF7004254AC /* QQLoginDemo */,
 				9DEBEDCF1D13CFF7004254AC /* QQLoginDemoTests */,
 				9DEBEDDA1D13CFF7004254AC /* QQLoginDemoUITests */,
@@ -117,6 +154,8 @@
 		9DEBEDB61D13CFF7004254AC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9DEBEDEB1D13D19B004254AC /* TencentOpenApi_IOS_Bundle.bundle */,
+				9DEBEDEC1D13D19B004254AC /* TencentOpenAPI.framework */,
 				9DEBEDB71D13CFF7004254AC /* main.m */,
 			);
 			name = "Supporting Files";
@@ -243,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DEBEDED1D13D19B004254AC /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				9DEBEDC61D13CFF7004254AC /* LaunchScreen.storyboard in Resources */,
 				9DEBEDC31D13CFF7004254AC /* Assets.xcassets in Resources */,
 				9DEBEDC11D13CFF7004254AC /* Main.storyboard in Resources */,
@@ -413,10 +453,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QQLoginDemo",
+				);
 				INFOPLIST_FILE = QQLoginDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ZGR.QQLoginDemo;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-fobjc-arc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -424,10 +475,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QQLoginDemo",
+				);
 				INFOPLIST_FILE = QQLoginDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ZGR.QQLoginDemo;
+				OTHER_LDFLAGS = (
+					"-fobjc-arc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
@@ -496,6 +557,7 @@
 				9DEBEDE21D13CFF7004254AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DEBEDE31D13CFF7004254AC /* Build configuration list for PBXNativeTarget "QQLoginDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +566,7 @@
 				9DEBEDE51D13CFF7004254AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DEBEDE61D13CFF7004254AC /* Build configuration list for PBXNativeTarget "QQLoginDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +575,7 @@
 				9DEBEDE81D13CFF7004254AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

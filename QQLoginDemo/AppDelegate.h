@@ -8,10 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol QQShareDelegate <NSObject>
+
+-(void)shareSuccssWithQQCode:(NSInteger)code;
+@end
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (weak  , nonatomic) id<QQShareDelegate> qqDelegate;
 
 @end
 
